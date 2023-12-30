@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /lab7oop/
+
+# Memeriksa jika URL bukan direktori atau file yang ada
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Mengarahkan URL ke query string yang diinginkan
+RewriteRule ^(.*)$ index.php/$1 [L]
