@@ -59,6 +59,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchHalloProject"
                         app:srcCompat="@drawable/img_2"  />
 
                     <TextView
@@ -94,6 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchCountProject"
                         app:srcCompat="@drawable/counting" />
 
                     <TextView
@@ -129,6 +131,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchSianidaProject"
                         app:srcCompat="@drawable/img_3"/>
 
                     <TextView
@@ -175,6 +178,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchAlarmProject"
                         app:srcCompat="@drawable/clock" />
 
                     <TextView
@@ -210,6 +214,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchFibonacciProject"
                         app:srcCompat="@drawable/fibonacci" />
 
                     <TextView
@@ -245,6 +250,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchMessegeProject"
                         app:srcCompat="@drawable/img_1" />
 
                     <TextView
@@ -287,6 +293,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchMapProject"
                         app:srcCompat="@drawable/img_4" />
 
                     <TextView
@@ -322,6 +329,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
+                        android:onClick="launchMovieProject"
                         app:srcCompat="@drawable/movv" />
 
                     <TextView

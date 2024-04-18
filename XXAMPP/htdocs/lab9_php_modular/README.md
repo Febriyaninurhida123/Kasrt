@@ -27,7 +27,7 @@ media="screen" />
 <a href="kontak.php">Kontak</a>
 </nav>
 ```
-![image](ss/ss1.png)
+![image](aset/ss/ss1.png)
 
 Buat file baru dengan nama footer.php
 ```
@@ -38,7 +38,7 @@ Buat file baru dengan nama footer.php
 </body>
 </html>
 ```
-![image](ss/ss2.png)
+![image](aset/ss/ss2.png)
 
 
 Buat file baru dengan nama home.php
@@ -50,11 +50,11 @@ Buat file baru dengan nama home.php
 </div>
 <?php require('footer.php'); ?>
 ```
-![image](ss/ss3.png)
+![image](aset/ss/ss3.png)
 
 
 output :
-![image](ss/ss6.png)
+![image](aset/ss/ss6.png)
 
 
 
@@ -68,16 +68,17 @@ Buat file baru dengan nama about.php
 <?php require('footer.php'); ?>
 ```
 
-![image](ss/ss4.png)
+![image](aset/ss/ss4.png)
 
 
 output :
 
-![image](ss/ss7.png)
+![image](aset/ss/ss7.png)
 
 
 
 ## berikut struktur yang saya buat :
+```
 ├── config
 │   ├── hapus.php
 │   ├── koneksi.php
@@ -97,76 +98,77 @@ output :
 ├── index.php
 ├── tambah.php
 └── ubah.php
+```
 
 ### config
 Dalam folder tersebut menyimpan file khusus php yang nanti akan dieksekusi
 
 * koneksi.php
-![image](ss/ss8.png)
+![image](aset/ss/ss8.png)
 
 * tambah.php
-![image](ss/ss9.png)
+![image](aset/ss/ss9.png)
 
 * ubah.php
-![image](ss/ss10.png)
+![image](aset/ss/ss10.png)
 
 * hapus.php
-![image](ss/ss11.png)
+![image](aset/ss/ss11.png)
 
 ### Layouts
 Untuk menyimpan tampilan utama pada website, dan dibagi pada beberapa file
 
 * head-static.php
-![image](ss/ss12.png)
+![image](aset/ss/ss12.png)
 
 * header.php
-![image](ss/ss14.png)
+![image](aset/ss/ss14.png)
 
 * main.php
-![image](ss/ss15.png)
+![image](aset/ss/ss15.png)
 
 * footer.php
-![image](ss/ss13.png)
+![image](aset/ss/ss13.png)
 
 
 ### Static
 Untuk menyimpan file yang diperlukan seperti css, js, gambar
 
 * style.css
-![image](ss/ss16.png)
+![image](aset/ss/ss16.png)
 
 
 ### Index.php, tambah.php, ubah.php
 File utama dan berfungsi sebagai wadah untuk memanggil sub-file di beberapa direktori
 
 * index.php 
-![image](ss/ss17.png)
+![image](aset/ss/ss17.png)
 
 * tambah.php
-![image](ss/ss18.png)
+![image](aset/ss/ss18.png)
 
 * ubah.php
-![image](ss/ss19.png)
+![image](aset/ss/ss19.png)
 
 ### Output
 Data Barang:
-![image](ss/ss20.png)
+![image](aset/ss/ss20.png)
 
 Tambah barang:
-![image](ss/ss21.png)
+![image](aset/ss/ss21.png)
 
 
 setelah ditambahkan data jadi bertambah,
-![image](ss/ss22.png)
+![image](aset/ss/ss22.png)
 
 
 ubah barang:
-![image](ss/ss23.png)
+![image](aset/ss/ss23.png)
 
 saya mengubah stok yang tadinya 5 jadi 1:
-![image](ss/ss24.png)
+![image](aset/ss/ss24.png)
 
 hapus barang:
-![image](ss/ss25.png)
+![image](aset/ss/ss25.png)
 
 setelah dihapus data barang jadi tinggal 3
